@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malek Fazilkhan Portfolio</title>
+    <!-- 
+      Copyright (c) 2025 Malek Fazilkhan. All rights reserved.
+      
+      This software and associated documentation files (the "Software") are the 
+      proprietary and confidential information of Malek Fazilkhan. The Software 
+      is protected by copyright laws and international copyright treaties, as well 
+      as other intellectual property laws and treaties.
+      
+      Unauthorized copying, distribution, modification, public display, or public 
+      performance of this Software is strictly prohibited and may result in severe 
+      civil and criminal penalties.
+      
+      For licensing inquiries, contact: malekfazilkhan07@gmail.com
+    -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/client/App.tsx"></script>
+    
+    <!-- Copyright Protection Script -->
+    <script>
+      /**
+       * Copyright (c) 2025 Malek Fazilkhan. All rights reserved.
+       * 
+       * This software and associated documentation files (the "Software") are the 
+       * proprietary and confidential information of Malek Fazilkhan. The Software 
+       * is protected by copyright laws and international copyright treaties, as well 
+       * as other intellectual property laws and treaties.
+       * 
+       * Unauthorized copying, distribution, modification, public display, or public 
+       * performance of this Software is strictly prohibited and may result in severe 
+       * civil and criminal penalties.
+       * 
+       * For licensing inquiries, contact: malekfazilkhan07@gmail.com
+       */
+      
+      // Copyright Protection Script
+      (function() {
+        'use strict';
+        
+        // Copyright notice
+        const copyrightNotice = `
+          ╔══════════════════════════════════════════════════════════════╗
+          ║                    COPYRIGHT NOTICE                          ║
+          ╠══════════════════════════════════════════════════════════════╣
+          ║  Copyright (c) 2025 Malek Fazilkhan. All rights reserved.    ║
+          ║                                                              ║
+          ║  This software is proprietary and confidential.              ║
+          ║  Unauthorized copying, distribution, modification,          ║
+          ║  public display, or public performance is strictly          ║
+          ║  prohibited and may result in severe civil and              ║
+          ║  criminal penalties.                                         ║
+          ║                                                              ║
+          ║  For licensing inquiries: malekfazilkhan07@gmail.com        ║
+          ╚══════════════════════════════════════════════════════════════╝
+        `;
+        
+        // Display copyright notice in console
+        console.log(copyrightNotice);
+        
+        // Prevent right-click context menu
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          alert('Copyright (c) 2025 Malek Fazilkhan. All rights reserved.\n\nUnauthorized copying is prohibited.\nFor licensing inquiries: malekfazilkhan07@gmail.com');
+          return false;
+        });
+        
+        // Prevent keyboard shortcuts for copy/paste
+        document.addEventListener('keydown', function(e) {
+          // Prevent Ctrl+C, Ctrl+X, Ctrl+A
+          if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'x' || e.key === 'a')) {
+            e.preventDefault();
+            alert('Copyright (c) 2025 Malek Fazilkhan. All rights reserved.\n\nUnauthorized copying is prohibited.\nFor licensing inquiries: malekfazilkhan07@gmail.com');
+            return false;
+          }
+        });
+        
+        // Prevent text selection
+        document.addEventListener('selectstart', function(e) {
+          e.preventDefault();
+          return false;
+        });
+        
+        // Add copyright watermark to page
+        const watermark = document.createElement('div');
+        watermark.style.cssText = `
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(-45deg);
+          font-size: 24px;
+          color: rgba(0,0,0,0.1);
+          pointer-events: none;
+          z-index: 9999;
+          user-select: none;
+          white-space: nowrap;
+        `;
+        watermark.textContent = '© 2025 Malek Fazilkhan. All rights reserved.';
+        document.body.appendChild(watermark);
+        
+      })();
+    </script>
+  </body>
+</html>
