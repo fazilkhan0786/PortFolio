@@ -1,6 +1,6 @@
 # Copyright Protection Summary
 
-**Copyright (c) 2025 Malek Fazilkhan. All rights reserved.**
+**Copyright (c) 2026 Mohammad Fazilkhan Firojkhan Malek. All rights reserved.**
 
 ## 🛡️ Copyright Protection Implemented
 
