@@ -21,7 +21,7 @@
 
 # Fazilkhan Portfolio Website
 
-A modern personal portfolio crafted with performance, minimalism, and smooth user experience in mind. The project combines a clean interface with responsive layouts, fluid animations, and optimized performance to create a professional digital presence.
+A modern personal portfolio crafted by Mohammad Fazilkhan Firojkhan Malek with performance, minimalism, and smooth user experience in mind. The project combines a clean interface with responsive layouts, fluid animations, and optimized performance to create a professional digital presence.
 
 ---
 
